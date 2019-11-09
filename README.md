@@ -1,6 +1,12 @@
 # Modeling Rainfall Distribution using Gamma Parameters
 
-In this project, We build a Bayesian Model on the Dataset. 
+
+<img src="https://github.com/kashishshah881/bayesian-model/blob/master/images/all.png" width="2000">
+
+
+
+
+In this project, We build a Bayesian Model on the Dataset. <br/>
 The Steps used are:
 * Looking at the histogram of the data, the best fitting distribution would be a gamma distribution.
 * Pick an analytic probability densiy function matching the shape of the histogram(Uniform,Normal,Exponential)
@@ -11,54 +17,60 @@ The Steps used are:
 
 Results: The Following are the result for the three distributions we have used:
 
+###### Uniform Distribution
+<img src="https://github.com/kashishshah881/bayesian-model/blob/master/images/uniform.png" width="500">
+
+
+###### Normal Distribution
+
+<img src="https://github.com/kashishshah881/bayesian-model/blob/master/images/normal.png" width="500">
+
+
+###### Exponential Distribution (Does fit better than the other two!)
+<img src="https://github.com/kashishshah881/bayesian-model/blob/master/images/exponential.png" width="500">
+
+
+
+
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+```
+git clone https://github.com/kashishshah881/bayesian-model.git
+
+```
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software:
 
 ```
-Give examples
+Python3.5+
+
+
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Run These Commands on the terminal
+```
+pip3 install jupyter numpy pandas matplotlib pymc3 seaborn
+```
+Once Everything is installed successfully run
 
 ```
-Give the example
+jupyter notebook
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
-
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **[Kashish Shah](www.kashishshah.com)**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
