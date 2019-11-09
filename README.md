@@ -49,8 +49,6 @@ What things you need to install the software:
 
 ```
 Python3.5+
-
-
 ```
 
 ### Installing
