@@ -1,13 +1,17 @@
 # Modeling Rainfall Distribution using Gamma Parameters
 
 In this project, We build a Bayesian Model on the Dataset. 
-The Steps are:
-* Look at the histogram of the data
-* Pick an analytic probability densiy function matching the shape of the histogram
+The Steps used are:
+* Looking at the histogram of the data, the best fitting distribution would be a gamma distribution.
+* Pick an analytic probability densiy function matching the shape of the histogram(Uniform,Normal,Exponential)
 * Model its parameters (priors) as probability density functions
-* Try different shape and values of these parameters (these are called *hyperparameters*)
+* Try different shape and values of these parameters (**hyperparameters**)
 * Run a probabilistic program to give us the posterior pdfs
 * Plot the posterior means on top of the histogram and check if we get a good match!
+
+Results: The Following are the result for the three distributions we have used:
+
+
 
 ## Getting Started
 
