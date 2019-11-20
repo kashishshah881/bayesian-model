@@ -9,7 +9,7 @@
 In this project, We build a Bayesian Model on the Dataset. <br/>
 The Steps used are:
 * Looking at the histogram of the data, the best fitting distribution would be a gamma distribution.
-* Pick an analytic probability densiy function matching the shape of the histogram(Uniform,Normal,Exponential)
+* Pick an analytic probability density function matching the shape of the histogram(Uniform,Normal,Exponential)
 * Model its parameters (priors) as probability density functions
 * Try different shape and values of these parameters (**hyperparameters**)
 * Run a probabilistic program to give us the posterior pdfs
